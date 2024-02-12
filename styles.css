@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 100px;
+    /* Adjust size as needed */
+    height: auto;
+}
+
+.innovation-left,
+.innovation-right {
+    margin: 0 20px;
+}
+
+.body {
+    padding: 20px;
+}
+
+.search {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search input {
+    padding: 10px;
+    width: 60%;
+}
+
+.search button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.recipe {
+    width: 40%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin: 10px;
+}
+
+.recipe img {
+    width: 62%;
+    height: 36vh;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    /* Adjust shadow color and intensity */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content img {
+    width: 50px;
+    /* Adjust size as needed */
+    height: auto;
+}
+
+.innovation-footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.menu {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
