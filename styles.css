@@ -28,6 +28,7 @@ header {
 
 .body {
     padding: 20px;
+    overflow-x: hidden;
 }
 
 .search {
